@@ -33,7 +33,7 @@ export class JoguinhoComponent implements OnInit {
       const astroPosition = +window.getComputedStyle(astro).bottom.replace('px', '');
 
       if (pipePosition <= 70 && pipePosition > 0 && astroPosition < 45) {
-        // Game over logic
+
         pipe.style.animation = 'none';
         pipe.style.left = '80px';
         astro.style.animation = 'none';

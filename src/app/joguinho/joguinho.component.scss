@@ -11,7 +11,7 @@
   border-bottom: 5px solid rgba(105, 97, 62, 0.952);
 
   background-image: url('../../assets/img/skynight.jpg');
-  background-repeat: repeat; /* Isso fará a imagem repetir */
+  background-repeat: repeat;
   background-size: cover;
 
 }
@@ -75,7 +75,7 @@
 }
 
 .jump{
-  animation: jump 600ms ease-out;
+  animation: jump 625ms ease-out;
 
 }
 

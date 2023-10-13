@@ -10,7 +10,7 @@ import { EmailComponent } from './email/email.component';
 })
 export class AppComponent {
   title = 'visit-card';
-  componenteAtivo: string = 'Email'; // Inicie com o componente 'Joguinho' ativo
+  componenteAtivo: string = 'Email';
   botaoTexto = 'Jogar um Joguinho';
 
   abrirGit(){
