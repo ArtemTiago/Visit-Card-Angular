@@ -1,0 +1,115 @@
+.test{
+  position: relative;
+  height: 832px;
+  width: 425px;
+  background-image: url(../assets/img/astro2.jpg);
+  background-size: cover;
+  z-index: 0;
+  border-radius: 10px;
+}
+mat-toolbar{
+  width: 425px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.foto{
+  margin-top: 10px;
+  margin-left: 37%;
+  z-index: 1;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  background-image: url(../assets/img/eu.png);
+  background-size: cover;
+}
+
+.buttons{
+
+  margin-left: 15%;
+  display:flex;
+  flex-direction: column;
+  margin-top: 5px;
+  height: 110px;
+  width: 300px;
+}
+
+.botao{
+  margin-top: 15px;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.link1, .link2, .link3{
+  background: lightblue;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin-left: 10px;
+}
+
+.link1{
+  background-image: url(../assets/img/linkedin.png);
+  background-size: cover;
+}
+
+.link2{
+  background-image: url(../assets/img/insta2.png);
+  background-size: 200%;
+  background-position: 50%;
+}
+
+.link3{
+  background-image: url(../assets/img/twitch.webp);
+  background-size: cover;
+}
+
+#texto{
+  color: white;
+  font-size: large;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+#reiniciar{
+  margin-left: 15%;
+  display:flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 300px;
+}
+
+@media (min-width: 425px) and (max-width: 768) {
+
+body{
+  background-color: black;
+  margin-top:-50px
+}
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+  .links{
+    margin-left: 20px;
+  }
+
+
+  .test{
+    position: relative;
+    height: 832px;
+    width: 425px;
+    background-image: url(../assets/img/astro2.jpg);
+    background-size: cover;
+    z-index: 0;
+    border-radius: 10px;
+  }
+
+  .foto{
+    margin-left: 40%;
+  }
+
+  }

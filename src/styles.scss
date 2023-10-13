@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  display: flex;
+  justify-content: center;
+}
+
+app-root{
+  margin-top: 20px;
+  height: 832px;
+  width: 425px;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,25 @@
+<p>Envie um Email:</p>
+<form [formGroup]="form" class="example-form" action="javascript:void(0)" (submit)="send()">
+  <mat-form-field class="example-full-width">
+    <mat-label>Nome:</mat-label>
+    <input formControlName="from_name" matInput placeholder="Ex. Fulano da Silva">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Email:</mat-label>
+    <input formControlName="from_email" matInput placeholder="@email.com">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Assunto:</mat-label>
+    <input formControlName="subject" matInput placeholder="Feedback">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Mensagem:</mat-label>
+    <input formControlName="message" matInput placeholder="Olá, gostaria de ...">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Enviar</button>
+</form>
+<!-- <h1 style="margin-left: 120px;"> {{form.value | json}}</h1> -->

@@ -1,0 +1,16 @@
+<div class="game-board">
+  <div class="score">
+    Score: {{ score }}
+  </div>
+
+    <!-- <img src="../../assets/img/skynight.jpg" class="sky" > -->
+    <img src="../../assets/img/astrogif.gif" class="astro">
+    <img src="../../assets/img/pedra.png" class="pipe" >
+
+    <div class="game-over-card" *ngIf="gameOver">
+      <h2>Game Over!</h2>
+    </div>
+</div>
+
+<!-- <button mat-raised-button id="botao2"(click)="iniciarAnimacao()">Iniciar</button> -->
+<button mat-raised-button id="botao" (click)="pular()">Pular</button>

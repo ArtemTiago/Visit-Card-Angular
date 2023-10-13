@@ -1,0 +1,66 @@
+
+.example-form {
+  min-width: 150px;
+  max-width: 400px;
+  margin-left: 10px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+p{
+  color: white;
+  margin-left: 20px;
+}
+
+mat-form-field{
+  height: 75px;
+  margin-bottom: -10px;
+}
+
+button{
+  margin-left: 15%;
+  display:flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+  form{
+   width: 350px;
+  }
+  p{
+    font-size: larger;
+  }
+
+  button{
+    margin-left: 19%;
+  }
+
+  p{
+    margin-left: 40px;
+  }
+
+  mat-form-field{
+    margin-left: 40px;
+  }
+
+}
+
+@media (min-width: 350px) and (max-width: 374px) {
+  form{
+    width: 325px;
+   }
+
+   mat-form-field{
+    margin-left: 40px;
+  }
+
+  p{
+    font-size: larger;
+    margin-left: 40px;
+  }
+}
